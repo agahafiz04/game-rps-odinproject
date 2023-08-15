@@ -4,7 +4,6 @@
 // 3. What is the output outcome? // Random between player and computer
 // 4. How to process the input to become the output? // Using random method
 
-//  PseudoCode / Code
 let startGameString = `--- Welcome To Rock Paper Scissors Game Made With Javascript ---
 
 1. To Play The Game Please Insert A String Between Rock, Paper, and Scissors
@@ -16,8 +15,11 @@ Enjoy The Game!
 `;
 
 console.log(startGameString);
+
+// Initialize variable
 let score = 0;
 
+// Randomize function to get computer choice
 function getComputerChoice() {
   let randomNumber = Math.floor(Math.random() * 3);
   if (randomNumber === 0) {
@@ -29,6 +31,7 @@ function getComputerChoice() {
   }
 }
 
+// Get player choice from prompt input
 function getPlayerChoice() {
   let playerChoice = prompt(
     `--- Welcome To Rock Paper Scissors Game Made With Javascript ---
@@ -45,6 +48,7 @@ function getPlayerChoice() {
   return playerChoice;
 }
 
+// Base game function that runs and calculating the output based of the input
 function playGame(playerSelection, computerSelection) {
   let equalStringPlayer =
     playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1);
@@ -71,6 +75,16 @@ function playGame(playerSelection, computerSelection) {
   }
 }
 
+// Set the output based of the score
+function scoreSet() {
+  if (score < 3) {
+    console.log(`You Lose, Try Again? (Total Score ${score})`);
+  } else {
+    console.log(`You win! (Total Score ${score})`);
+  }
+}
+
+// Call the base function 5 times and calculate the final score
 function gamePlay() {
   for (let i = 0; i < 5; ++i) {
     let playerPlay = getPlayerChoice();
@@ -82,12 +96,5 @@ function gamePlay() {
   return;
 }
 
-function scoreSet() {
-  if (score < 3) {
-    console.log(`You Lose, Try Again? (Total Score ${score})`);
-  } else {
-    console.log(`You win! (Total Score ${score})`);
-  }
-}
-
+// Invoke function
 gamePlay();
