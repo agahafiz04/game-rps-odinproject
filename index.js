@@ -76,7 +76,7 @@ function playGame(playerSelection, computerSelection) {
 }
 
 // Set the output based of the score
-function scoreSet() {
+function SetScore() {
   if (score < 3) {
     console.log(`You Lose, Try Again? (Total Score ${score})`);
   } else {
@@ -92,7 +92,7 @@ function gamePlay() {
     let play = playGame(playerPlay, computerPlay);
     console.log(play);
   }
-  scoreSet();
+  SetScore();
   return;
 }
 
