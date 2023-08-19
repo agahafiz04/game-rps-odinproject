@@ -107,9 +107,9 @@ function setScore() {
     });
 
     if (score < 3) {
-      return `You Lose, Try Again? (Total Score : ${score})`;
+      return `You Lose, Try Again? </br> (Total Score : ${score})`;
     } else {
-      return `You win! (Total Score : ${score})`;
+      return `You win! </br> (Total Score : ${score}) `;
     }
   }
 }
@@ -163,7 +163,9 @@ function showText(textContent, playerImg, computerImg) {
     console.log(imgTwo);
   }
 
-  scoreEl.textContent = setScore();
+  if (functionCalled === 5) {
+    scoreEl.innerHTML = setScore();
+  }
 }
 
 // Create New HTML Element
