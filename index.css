@@ -11,6 +11,7 @@ body {
   font-family: "Barriecito", cursive;
   font-family: "Jost", sans-serif;
   min-height: 100vh;
+  zoom: 90%;
 }
 
 div.main-container {
