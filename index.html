@@ -3,8 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="index.js"></script>
+    <title>RPS With Javascript</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <div class="title">
+        <h1>Rock Paper Scissors Game</h1>
+        <img src="images/rock-paper-scissors.png" alt="" />
+        <h2>Created With HTML, CSS, & JAVASCRIPT</h2>
+      </div>
+
+      <div class="description">
+        <h3>
+          --- Welcome To Rock Paper Scissors Game Made With Javascript ---
+          <br />
+        </h3>
+        <h3>To Play The Game Please Press "Start Game"</h3>
+        <button class="start">Start Game</button>
+      </div>
+
+      <div class="battle-section">
+        <p class="rules">
+          Please Choose Button Between Rock, Paper, and Scissors <br />There
+          Will Be 5 Round To Determine The Winner <br />
+          Enjoy
+        </p>
+        <h2 class="battle-title">Choose Your Weapon</h2>
+        <div class="button-container"></div>
+      </div>
+
+      <div class="result">
+        <h2></h2>
+        <div>
+          <img class="img-one" />
+          <h2>VS</h2>
+          <img class="img-two" />
+        </div>
+        <h1 class="score-text">Total Score :</h1>
+        <button class="restart">Restart Game</button>
+        <button class="menu">Back To Menu</button>
+      </div>
+    </div>
+  </body>
 </html>
