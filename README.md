@@ -2,7 +2,7 @@
 
 RPS Game powered by The Odin Project
 
-This project is made using html, css, and javascript. The contents of this project is a minigame about rock paper scissors game.
+This project is made using html, css, and javascript. The contents of this project is a minigame about rock paper scissors game created to improve understanding about basic javascript syntax
 
 ## [Live Demo](https://agahafiz04.github.io/odin-recipes-odinproject/)
 
