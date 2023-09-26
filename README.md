@@ -7,7 +7,10 @@ This project is made using html, css, and javascript. The contents of this proje
 ## [Live Demo](https://agahafiz04.github.io/odin-recipes-odinproject/)
 
 # Page Preview
-![screencapture-agahafiz04-github-io-game-rps-odinproject-2023-09-26-10_11_00](https://github.com/agahafiz04/game-rps-odinproject/assets/139210360/9e75b248-7954-4328-b7a4-30d84f57c2df)
+![RPS](https://github.com/agahafiz04/game-rps-odinproject/assets/139210360/da9d551a-505c-4e02-81ea-2eb6be78b104)
+
+# Page Preview (2)
+![RPS2](https://github.com/agahafiz04/game-rps-odinproject/assets/139210360/105e6f41-8871-4339-8774-17bee1574065)
 
 
 ### Technologies Used
